@@ -11,41 +11,41 @@ the recipe titles in a `ListView` widget in Flutter.
 
 ``` json
 {
-  "recipes": [
+  "recipes": \[
     {
       "title": "Pasta Carbonara",
       "description": "Creamy pasta dish with bacon and cheese.",
-      "ingredients": ["spaghetti", "bacon", "egg", "cheese"]
+      "ingredients": \["spaghetti", "bacon", "egg", "cheese"]
     },
     {
       "title": "Caprese Salad",
       "description": "Simple and refreshing salad with tomatoes, mozzarella, and basil.",
-      "ingredients": ["tomatoes", "mozzarella", "basil"]
+      "ingredients": \["tomatoes", "mozzarella", "basil"]
     },
     {
       "title": "Banana Smoothie",
       "description": "Healthy and creamy smoothie with bananas and milk.",
-      "ingredients": ["bananas", "milk"]
+      "ingredients": \["bananas", "milk"]
     },
     {
       "title": "Chicken Stir-Fry",
       "description": "Quick and flavorful stir-fried chicken with vegetables.",
-      "ingredients": ["chicken breast", "broccoli", "carrot", "soy sauce"]
+      "ingredients": \["chicken breast", "broccoli", "carrot", "soy sauce"]
     },
     {
       "title": "Grilled Salmon",
       "description": "Delicious grilled salmon with lemon and herbs.",
-      "ingredients": ["salmon fillet", "lemon", "olive oil", "dill"]
+      "ingredients": \["salmon fillet", "lemon", "olive oil", "dill"]
     },
     {
       "title": "Vegetable Curry",
       "description": "Spicy and aromatic vegetable curry.",
-      "ingredients": ["mixed vegetables", "coconut milk", "curry powder"]
+      "ingredients": \["mixed vegetables", "coconut milk", "curry powder"]
     },
     {
       "title": "Berry Parfait",
       "description": "Layered dessert with fresh berries and yogurt.",
-      "ingredients": ["berries", "yogurt", "granola"]
+      "ingredients": \["berries", "yogurt", "granola"]
     }
   ]
 }
@@ -59,11 +59,11 @@ scrollable `ListView`.
 
 ## Features
 
--   Parses the provided JSON string using `jsonDecode()` from
-    `dart:convert`.
--   Defines a `Recipe` data model.
--   Uses a `fromJson()` factory constructor to create `Recipe` objects.
--   Displays all seven recipe titles with `ListView.builder()`.
+* Parses the provided JSON string using `jsonDecode()` from
+`dart:convert`.
+* Defines a `Recipe` data model.
+* Uses a `fromJson()` factory constructor to create `Recipe` objects.
+* Displays all seven recipe titles with `ListView.builder()`.
 
 ## Project Structure
 
@@ -73,17 +73,17 @@ lib/
 ├── models/
 │   └── recipe.dart
 └── data/
-    └── recipe_data.dart
+    └── recipe\_data.dart
 ```
 
 ## Implementation Summary
 
-1.  **JSON parsing:** `jsonDecode()` converts the JSON string into Dart
-    data.
-2.  **Data modelling:** `Recipe.fromJson()` maps each JSON recipe to a
-    strongly typed `Recipe` object.
-3.  **UI rendering:** `ListView.builder()` builds a list item for each
-    recipe and displays its title.
+1. **JSON parsing:** `jsonDecode()` converts the JSON string into Dart
+data.
+2. **Data modelling:** `Recipe.fromJson()` maps each JSON recipe to a
+strongly typed `Recipe` object.
+3. **UI rendering:** `ListView.builder()` builds a list item for each
+recipe and displays its title.
 
 ## How to Run
 
@@ -105,21 +105,22 @@ flutter analyze
 
 The app displays these seven recipe titles in a scrollable list:
 
-1.  Pasta Carbonara
-2.  Caprese Salad
-3.  Banana Smoothie
-4.  Chicken Stir-Fry
-5.  Grilled Salmon
-6.  Vegetable Curry
-7.  Berry Parfait
+1. Pasta Carbonara
+2. Caprese Salad
+3. Banana Smoothie
+4. Chicken Stir-Fry
+5. Grilled Salmon
+6. Vegetable Curry
+7. Berry Parfait
 
 ## Technologies Used
 
--   Flutter
--   Dart
--   JSON
--   `dart:convert`
+* Flutter
+* Dart
+* JSON
+* `dart:convert`
 
 ## Author
 
-Add your name here.
+shafin-23
+
